@@ -157,5 +157,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return .TerminateNow
     }
 
+    func addWord(newWord:Word){
+        managedObjectModel.insertValue(newWord, inPropertyWithKey: newWord.word)
+    }
 }
 

@@ -22,6 +22,12 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func pressrbtn(sender: AnyObject) {
+        NSLog("pressrbtn")
+    }
+    @IBAction func pressBtn(sender: AnyObject) {
+        NSLog("pressBtn")
+    }
 
 }
 

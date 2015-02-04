@@ -13,6 +13,8 @@
 		822BA76C1A81EEA200E19A90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822BA76B1A81EEA200E19A90 /* Images.xcassets */; };
 		822BA76F1A81EEA200E19A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822BA76D1A81EEA200E19A90 /* Main.storyboard */; };
 		822BA77B1A81EEA300E19A90 /* osxappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BA77A1A81EEA300E19A90 /* osxappTests.swift */; };
+		822BA7851A8209EB00E19A90 /* Vocabulary.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 822BA7841A8209EB00E19A90 /* Vocabulary.xcdatamodel */; };
+		822BA7871A820CDC00E19A90 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BA7861A820CDC00E19A90 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		822BA7741A81EEA300E19A90 /* osxappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822BA7791A81EEA300E19A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		822BA77A1A81EEA300E19A90 /* osxappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osxappTests.swift; sourceTree = "<group>"; };
+		822BA7841A8209EB00E19A90 /* Vocabulary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vocabulary.xcdatamodel; sourceTree = "<group>"; };
+		822BA7861A820CDC00E19A90 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				822BA76B1A81EEA200E19A90 /* Images.xcassets */,
 				822BA76D1A81EEA200E19A90 /* Main.storyboard */,
 				822BA7681A81EEA200E19A90 /* osxapp.xcdatamodeld */,
+				822BA7841A8209EB00E19A90 /* Vocabulary.xcdatamodel */,
+				822BA7861A820CDC00E19A90 /* Word.swift */,
 				822BA7621A81EEA000E19A90 /* Supporting Files */,
 			);
 			path = osxapp;
@@ -213,6 +219,8 @@
 			files = (
 				822BA7671A81EEA100E19A90 /* ViewController.swift in Sources */,
 				822BA7651A81EEA100E19A90 /* AppDelegate.swift in Sources */,
+				822BA7871A820CDC00E19A90 /* Word.swift in Sources */,
+				822BA7851A8209EB00E19A90 /* Vocabulary.xcdatamodel in Sources */,
 				822BA76A1A81EEA200E19A90 /* osxapp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 				822BA7801A81EEA300E19A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		822BA7811A81EEA300E19A90 /* Build configuration list for PBXNativeTarget "osxappTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				822BA7831A81EEA300E19A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
